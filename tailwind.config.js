@@ -1,6 +1,10 @@
 module.exports = {
   theme: {
-    extend: {}
+    extend: {
+      spacing: {
+        '72': '18rem'
+      }
+    }
   },
   variants: {
     // order of array matters. higner index has priority
