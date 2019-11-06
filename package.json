@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "live-server public",
     "build:styles": "postcss css/tailwind.css -o public/build/tailwind.css",
     "watch:styles": "postcss css/tailwind.css -o public/build/tailwind.css --watch"
   },
